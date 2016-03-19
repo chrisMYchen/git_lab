@@ -20,7 +20,7 @@ public class BubbleSort {
         }
         return unsortedArray;
 	}
-	private static void swap(int[] myArray, int indexone, int indextwo){
+	public static void swap(int[] myArray, int indexone, int indextwo){
 		int hold = myArray[indexone];
 		myArray[indexone] = myArray[indextwo];
 		myArray[indextwo] = hold;
